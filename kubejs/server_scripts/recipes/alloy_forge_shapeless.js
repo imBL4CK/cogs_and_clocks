@@ -62,6 +62,17 @@ ServerEvents.recipes((e) => {
         {"item": "immersiveengineering:slag"},
       ],
     },
+    //Reinforced Diamond Plate
+    {
+      result: {
+        "id": "science_is_future:diamond_reinforced_plating"
+      },
+      id: "science_is_future/diamond_reinforced_plating",
+      ingredients: [
+        {"tag": "c:gems/diamond"},
+        {"tag": "c:gems/diamond"},
+      ],
+    },
   ];
   recipes.forEach((recipe) => {
     e.custom({

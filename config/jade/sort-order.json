@@ -95,5 +95,6 @@
   "toms_storage:inventory_config": null,
   "toms_storage:inventory_connector": null,
   "toms_storage:inventory_hopper": null,
-  "unlitcampfire:campfireinfo": null
+  "unlitcampfire:campfireinfo": null,
+  "waystones:waystone": null
 }

@@ -206,6 +206,87 @@ ServerEvents.recipes((e) => {
         }
       },
     },
+    
+    //diamond Helmet
+    {
+      result: {
+        id: "minecraft:diamond_helmet"
+      },
+      id: "minecraft/diamond_helmet",
+      pattern: [
+        "PIP",
+        "I I",
+        "   "
+      ],
+      key: {
+        P: {
+          item: "science_is_future:diamond_reinforced_plating"
+        },
+        I: {
+          tag: "c:gems/diamond"
+        }
+      },
+    },
+    //diamond Chestplate
+    {
+      result: {
+        id: "minecraft:diamond_chestplate"
+      },
+      id: "minecraft/diamond_chestplate",
+      pattern: [
+        "I I",
+        "PIP",
+        "PIP"
+      ],
+      key: {
+        P: {
+          item: "science_is_future:diamond_reinforced_plating"
+        },
+        I: {
+          tag: "c:gems/diamond"
+        }
+      },
+    },
+    //diamond Leggings
+    {
+      result: {
+        id: "minecraft:diamond_leggings"
+      },
+      id: "minecraft/diamond_leggings",
+      pattern: [
+        "PPP",
+        "I I",
+        "I I"
+      ],
+      key: {
+        P: {
+          item: "science_is_future:diamond_reinforced_plating"
+        },
+        I: {
+          tag: "c:gems/diamond"
+        }
+      },
+    },
+    //diamond Boots
+    {
+      result: {
+        id: "minecraft:diamond_boots"
+      },
+      id: "minecraft/diamond_boots",
+      pattern: [
+        "P P",
+        "I I",
+        "   "
+      ],
+      key: {
+        P: {
+          item: "science_is_future:diamond_reinforced_plating"
+        },
+        I: {
+          tag: "c:gems/diamond"
+        }
+      },
+    },
   ];
   recipes.forEach((recipe) => {
     e.custom({

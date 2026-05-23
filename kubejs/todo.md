@@ -1,0 +1,2 @@
+- Adicionar o Slot de Medalha
+- Alterar o Modelo da Flashlight

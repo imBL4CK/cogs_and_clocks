@@ -20,6 +20,10 @@ RecipeViewerEvents.addInformation("item", (e) => {
       item: ["cookscollection:salted_dripstone_block", "cookscollection:salt"],
       info: "Salt can be found in caves.",
     },
+    {
+      item: ["minecraft:crossbow", "minecraft:spyglass"],
+      info: "Right-click on a crossbow while holding a spyglass with the mouse cursor to attach the spyglass to the crossbow.",
+    },
   ];
   information.forEach((jei) => {
     e.add(jei.item, [jei.info]);

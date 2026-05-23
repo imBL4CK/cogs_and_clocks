@@ -208,6 +208,22 @@ ServerEvents.recipes((e) => {
         T: "science_is_future:tanned_leather",
       },
     },
+    //Prismarine Flashlight
+    {
+      result: "handheldmoon:moonlight_lamp",
+      id: "handheldmoon/prismarine_flashlight",
+      pattern: [
+        "LPL",
+        " G ",
+        " S ",
+      ],
+      keys: {
+        L: "minecraft:lapis_lazuli",
+        P: "minecraft:sea_lantern",
+        G: "#c:plates/gold",
+        S: "minecraft:prismarine_shard",
+      },
+    },
   ];
   recipes.forEach((recipe) => {
     e.shaped(recipe.result, recipe.pattern, recipe.keys).id(`science_is_future:minecraft/crafting_table/${recipe.id}`);

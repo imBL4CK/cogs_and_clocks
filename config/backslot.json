@@ -1,0 +1,26 @@
+{
+  "whiteOrBlackList": "BLACK_LIST",
+  "blacklistedFromBackslot": [],
+  "blacklistedItemTagsFromBackslot": [
+    "c:shulker_boxes"
+  ],
+  "whitelistedInBackslot": [],
+  "whitelistedItemTagsInBackslot": [
+    "c:tools"
+  ],
+  "bigItemsOnBackslot": [
+    "reeling_scythes:diamond_scythe",
+    "reeling_scythes:diamond_double_axe",
+    "reeling_scythes:netherite_scythe",
+    "reeling_scythes:netherite_double_axe",
+    "amarite:amarite_longsword",
+    "sea_weapons:anchor_hammer",
+    "sea_weapons:anchor_handle",
+    "sea_weapons:hammer_head",
+    "sea_weapons:royal_anchor",
+    "sea_weapons:coral_anchor",
+    "sea_weapons:ruby_anchor",
+    "daggerlance:daggerlance"
+  ],
+  "shouldDropBackslotItem": false
+}

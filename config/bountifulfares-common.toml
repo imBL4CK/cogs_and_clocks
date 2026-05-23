@@ -31,7 +31,7 @@ hoary_seeds = true
 #Sniffers can dig up Lapisberry Seeds
 lapisberry_seeds = true
 #Grass loot tables are overridden
-grass_loot_table_override = true
+grass_loot_table_override = false
 #Guardians drop Spongekin Seeds
 spongekin_seeds_guardian = true
 #Show compatibility items in recipe viewers

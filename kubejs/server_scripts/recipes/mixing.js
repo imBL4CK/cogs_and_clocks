@@ -18,7 +18,7 @@ ServerEvents.recipes((e) => {
           "item": "farmersdelight:tree_bark"
         },
         {
-          "item": "salt:salt"
+          "item": "cookscollection:salt"
         },
       ],
       results: [
