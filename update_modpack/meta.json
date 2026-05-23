@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "hotfixesFormat": null,
+  "versions": [
+    {
+        "id": "0.1.0",
+        "releasedAt": 1779570600000,
+        "promotions": {
+            "downloads": {
+                "generic": "https://github.com/imBL4CK/science_is_future/releases/download/0.1.0/Science.is.Future-0.1.0.zip"
+            }
+        }
+    }
+  ]
+}
