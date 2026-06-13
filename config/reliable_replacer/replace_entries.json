@@ -1,0 +1,11 @@
+ [
+   {
+     "inputs": "caverns_and_chasms:silver_ore",
+     "output": "immersiveengineering:ore_silver"
+   },
+   {
+     "inputs": "caverns_and_chasms:deepslate_silver_ore",
+     "output": "immersiveengineering:deepslate_ore_silver"
+   }
+ ]
+ 

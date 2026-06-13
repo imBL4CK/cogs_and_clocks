@@ -1,0 +1,11 @@
+{
+    "type": {
+      "id": "modopedia:classic"
+    },
+    "creative_tab": "kubejs:tab",
+    "title": "survival_archives.title",
+    "subtitle": "survival_archives.subtitle",
+    "landing_text": "survival_archives.landing_text",
+    "model": "science_is_future:item/modopedia_books/survival_archives",
+    "font": "minecraft:uniform"
+}

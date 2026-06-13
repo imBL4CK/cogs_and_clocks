@@ -1,0 +1,38 @@
+{
+  "components": [
+    {
+      "type": "modopedia:separator",
+      "y": 10
+    },
+    {
+        "type": "modopedia:small_frame",
+        "x": 40,
+        "y": 24
+    },
+    {
+        "type": "modopedia:item_gallery",
+        "display": "#showcase_item",
+        "height": 48,
+        "width": 48,
+        "x": 42,
+        "y": 26
+    },
+    {
+      "type": "modopedia:header",
+      "bold": "#bold",
+      "centered": "#centered",
+      "colour": "#colour",
+      "text": "#header",
+      "underline": "#underline"
+    },
+    {
+      "type": "modopedia:text",
+      "justify": "#justify",
+      "line_height": "#line_height",
+      "text": "#text",
+      "width": "#width",
+      "y": "#text_offset"
+    }
+  ],
+  "processor": "modopedia:headered_text"
+}

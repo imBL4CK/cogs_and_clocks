@@ -1,0 +1,47 @@
+{
+  "title": "Delightful",
+  "icon": {
+    "id": "science_is_future:dummy_item_delightful"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "type": "modopedia:separator",
+          "y": 10
+        },
+        {
+          "type": "modopedia:header",
+          "text": "Delightful"
+        },
+        {
+          "type": "modopedia:medium_frame",
+          "x": 22,
+          "y": 20
+        },
+        {
+          "type": "modopedia:image",
+          "images": ["science_is_future:textures/mob_effect/delightful.png"],
+          "height": 50,
+          "width": 50,
+          "x": 24,
+          "y": 24
+        },
+        {
+          "type": "modopedia:text",
+          "text": "Restores hunger slowly, even after eating a meal",
+          "y": 80
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "template": "modopedia:page/headered_text",
+          "header": "Delightful",
+          "text": "Elaborate meals often produce an effect that is a mixture of emotional and nutritional satisfaction, this effect is called delightful.\n\nThis effect causes the hunger bar to slowly fill up even after eating the main meal."
+        }
+      ]
+    }
+  ]
+}

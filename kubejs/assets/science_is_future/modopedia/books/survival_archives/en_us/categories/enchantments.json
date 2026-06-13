@@ -1,0 +1,10 @@
+{
+  "title": "Enchantments",
+  "icon": { "id": "minecraft:enchanted_book" },
+  "landing_text": "This world offers new and interesting enchantments with its own properties.\n\nFeel free to explore its features.",
+  "entries": [
+    "enchantments/joust",
+    "enchantments/wide_steps",
+    "enchantments/razor_edges"
+  ]
+}

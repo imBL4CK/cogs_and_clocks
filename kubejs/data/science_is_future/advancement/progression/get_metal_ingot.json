@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_ingot"
+    },
+    "title": {
+      "translate": "advancements.science_is_future.progression.get_metal_ingot.title"
+    },
+    "description": {
+      "translate": "advancements.science_is_future.progression.get_metal_ingot.description"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "science_is_future:progression/get_crushed_raw_material",
+  "criteria": {
+    "get_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ingot",
+              "minecraft:copper_ingot",
+              "minecraft:gold_ingot",
+              "minecraft:netherite_ingot",
+              "caverns_and_chasms:necromium_ingot",
+              "caverns_and_chasms:tin_ingot",
+              "create:zinc_ingot",
+              "create:brass_ingot",
+              "alloyed:bronze_ingot",
+              "immersiveengineering:ingot_hop_graphite",
+              "immersiveengineering:ingot_aluminum",
+              "immersiveengineering:ingot_lead",
+              "immersiveengineering:ingot_silver",
+              "immersiveengineering:ingot_nickel",
+              "immersiveengineering:ingot_uranium",
+              "immersiveengineering:ingot_constantan",
+              "immersiveengineering:ingot_electrum",
+              "immersiveengineering:ingot_steel",
+              "science_is_future:wrought_iron_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": false
+}

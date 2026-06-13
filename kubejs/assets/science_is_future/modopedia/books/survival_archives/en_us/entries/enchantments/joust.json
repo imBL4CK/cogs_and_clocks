@@ -1,0 +1,47 @@
+{
+  "title": "Joust",
+  "icon": {
+    "id": "minecraft:enchanted_book"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "template": "science_is_future:page/simple_showcase_item",
+          "header": "Joust",
+          "text": "Joust It is an enchantment that can be applied to swords and spears that increases the weapon's damage when the player is riding some variant of horse or camel.",
+          "text_offset": 50,
+          "showcase_item": {
+            "type": "modopedia:simple",
+            "item": { 
+              "id": "minecraft:enchanted_book",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "science_is_future:joust": 3
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "template": "science_is_future:page/enchantment_lore",
+          "lore": "It is believed that the power of the enchantment originates from an ancient combat technique, which consisted of two duelists meeting on horseback.\n\nThe momentary effect caused by the enchantment is increased sharpness at the extremities and an absurd gain in confidence for both the user and the mount."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "template": "science_is_future:page/enchantment_data",
+          "data": "$(b)$(i)* Applicable to:$(/b)$(/i) Spears and Swords \n$(b)$(i)* Max Level:$(/b)$(/i) 3 \n$(b)$(i)* Tresure:$(/b)$(/i) No"
+        }
+      ]
+    }
+  ]
+}

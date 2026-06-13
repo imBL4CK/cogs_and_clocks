@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.science_is_future.progression.get_flint_and_steel.title"
+    },
+    "description": {
+      "translate": "advancements.science_is_future.progression.get_flint_and_steel.description"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "science_is_future:progression/get_flint",
+  "criteria": {
+    "get_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone_sword",
+              "minecraft:stone_pickaxe",
+              "minecraft:stone_axe",
+              "minecraft:stone_shovel",
+              "minecraft:stone_hoe"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

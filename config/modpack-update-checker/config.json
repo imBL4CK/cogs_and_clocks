@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 9,
+  "currentVersion": "0.1.1",
+  "modpackName": "Science Is Future",
+  "modpackAuthor": "imBL4CK_",
+  "modpackReleaseType": "stable",
+  "updateCheckerId": "https://github.com/imBL4CK/science_is_future/tree/update_modpack/",
+  "advanced": {
+    "bccEnabled": false,
+    "expandButton": false,
+    "updateCheckerType": 2,
+    "retroWarning": false,
+    "modpackMods": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "modopedia:book",
+      "components": {
+        "modopedia:book": "science_is_future:survival_archives"
+      }
+    },
+    "title": {
+      "translate": "advancements.science_is_future.progression.root.title"
+    },
+    "description": {
+      "translate": "advancements.science_is_future.progression.root.description"
+    },
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/stone.png"
+  },
+  "criteria": {
+    "login": { 	"trigger": "minecraft:tick" }
+  },
+  "sends_telemetry_event": false
+}

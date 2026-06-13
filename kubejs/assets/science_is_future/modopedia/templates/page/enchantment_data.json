@@ -1,0 +1,23 @@
+{
+  "components": [
+    {
+      "type": "modopedia:separator",
+      "y": 10
+    },
+    {
+      "type": "modopedia:header",
+      "text": "Technical Data"
+    },
+    {
+      "type": "modopedia:text",
+      "text": "Technical data that may be useful regarding the aforementioned enchantment.",
+      "y": 20
+    },
+    {
+      "type": "modopedia:text",
+      "text": "#data",
+      "y": 60
+    }
+  ],
+  "processor": "modopedia:headered_text"
+}

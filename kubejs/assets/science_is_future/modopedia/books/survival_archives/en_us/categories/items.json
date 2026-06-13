@@ -1,0 +1,13 @@
+{
+  "title": "Items",
+  "icon": { "id": "science_is_future:plastic_sheet" },
+  "landing_text": "This category contains information about items, their uses, how to obtain them, and interesting facts.",
+  "entries": [
+    "items/plastic",
+    "items/rubber",
+    "items/pipette",
+    "items/engineer_suit",
+    "items/tanned_leather",
+    "items/reinforced_platings"
+  ]
+}

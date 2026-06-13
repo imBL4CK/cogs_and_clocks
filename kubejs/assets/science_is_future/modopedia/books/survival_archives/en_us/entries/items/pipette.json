@@ -1,0 +1,34 @@
+{
+  "title": "Pipette",
+  "icon": {
+    "id": "precision_fluid_pipette:fluid_pipette"
+  },
+  "assigned_items": [
+    "precision_fluid_pipette:fluid_pipette"
+  ],
+  "pages": [
+    {
+      "components": [
+        {
+          "template": "science_is_future:page/simple_showcase_item",
+          "header": "Pipette",
+          "text": "Precision Fluid Pipette is a focused tool for handling fluids with the precision a bucket can't offer.\n\nWhere a bucket forces you to deal in fixed 1000 mB increments, the pipette stores any amount from 1 mB up to 1000 mB..",
+          "text_offset": 50,
+          "showcase_item": {
+            "type": "modopedia:simple",
+            "item": { "id": "precision_fluid_pipette:fluid_pipette" }
+          }
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "template": "modopedia:page/headered_text",
+          "header": "Fluid Picking",
+          "text": "Its makes it perfect for topping up tanks, draining the last few drops out of a machine, or moving partial amounts between systems without spilling or wasting anything.\n\nIt's a manual tool — no automation, no pipes, no networks. Just one well-behaved item that does five things well."
+        }
+      ]
+    }
+  ]
+}

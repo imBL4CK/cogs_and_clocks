@@ -1,0 +1,18 @@
+{
+  "components": [
+    {
+      "type": "modopedia:separator",
+      "y": 10
+    },
+    {
+      "type": "modopedia:header",
+      "text": "Lore"
+    },
+    {
+      "type": "modopedia:text",
+      "text": "#lore",
+      "y": 20
+    }
+  ],
+  "processor": "modopedia:headered_text"
+}

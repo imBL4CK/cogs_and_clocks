@@ -1,0 +1,56 @@
+{
+  "title": "Wide Steps",
+  "icon": {
+    "id": "minecraft:enchanted_book"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "template": "science_is_future:page/simple_showcase_item",
+          "header": "Wide Steps",
+          "text": "Wide Steps It is an enchantment that can be applied to horse armor that incrases mob movement speed.",
+          "text_offset": 50,
+          "showcase_item": {
+            "type": "modopedia:simple",
+            "item": { 
+              "id": "minecraft:enchanted_book",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "science_is_future:wide_steps": 2
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "template": "science_is_future:page/enchantment_lore",
+          "lore": "When the horse dons the armor, its muscles hypertrophy, giving its legs enormous strength.\n\nThe effect is removed as soon as the mob removes its armor, returning it to its state before the alterations."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "template": "modopedia:page/headered_text",
+          "header": "Method of Obtaining",
+          "text": "it can be obtained from the loot of the simple dungeons"
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "template": "science_is_future:page/enchantment_data",
+          "data": "$(b)$(i)* Applicable to:$(/b)$(/i) Horse Armors \n$(b)$(i)* Max Level:$(/b)$(/i) 2 \n$(b)$(i)* Tresure:$(/b)$(/i) Yes"
+        }
+      ]
+    }
+  ]
+}

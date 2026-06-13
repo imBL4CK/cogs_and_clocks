@@ -1,0 +1,9 @@
+{
+  "title": "Mob Effects",
+  "icon": { "id": "minecraft:brewing_stand" },
+  "landing_text": "This category is dedicated to explaining how the newly added effects work and what causes them.\n\nThis world brings many new positive and negative effects that directly affect your survival.",
+  "entries": [
+    "mob_effects/gloom",
+    "mob_effects/delightful"
+  ]
+}

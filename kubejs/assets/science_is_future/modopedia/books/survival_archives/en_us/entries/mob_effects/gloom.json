@@ -1,0 +1,47 @@
+{
+  "title": "Gloom",
+  "icon": {
+    "id": "science_is_future:dummy_item_gloom"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "type": "modopedia:separator",
+          "y": 10
+        },
+        {
+          "type": "modopedia:header",
+          "text": "The Gloom"
+        },
+        {
+          "type": "modopedia:medium_frame",
+          "x": 22,
+          "y": 20
+        },
+        {
+          "type": "modopedia:image",
+          "images": ["science_is_future:textures/mob_effect/gloom.png"],
+          "height": 50,
+          "width": 50,
+          "x": 24,
+          "y": 24
+        },
+        {
+          "type": "modopedia:text",
+          "text": "Staying in dark environments can be dangerous...\n\nAs a greater force of this world may try to consume you.",
+          "y": 80
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "template": "modopedia:page/headered_text",
+          "header": "The Gloom",
+          "text": "Gloom is an effect caused when the player is in closed and very dark environments. This effect reduces the damage dealt by the player, decreases their base speed, and deals damage over time.\n\nTo avoid being consumed by greater forces, always stay in well-lit areas whenever you are in closed environments."
+        }
+      ]
+    }
+  ]
+}

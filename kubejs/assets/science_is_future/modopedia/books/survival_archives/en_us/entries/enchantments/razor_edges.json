@@ -1,0 +1,56 @@
+{
+  "title": "Razor Edges",
+  "icon": {
+    "id": "minecraft:enchanted_book"
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "template": "science_is_future:page/simple_showcase_item",
+          "header": "Razor Edges",
+          "text": "Razor Edges increases the damage of throwables, such as a trident.",
+          "text_offset": 50,
+          "showcase_item": {
+            "type": "modopedia:simple",
+            "item": { 
+              "id": "minecraft:enchanted_book",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "science_is_future:razor_edges": 2
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "template": "science_is_future:page/enchantment_lore",
+          "lore": "The points are sharpened with enviable precision. Only a select group of weapons can withstand being enchanted with such power.\n\nThrowable weapons retain this property when thrown."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "template": "modopedia:page/headered_text",
+          "header": "Method of Obtaining",
+          "text": "it can be obtained from the loot of the monuments"
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "template": "science_is_future:page/enchantment_data",
+          "data": "$(b)$(i)* Applicable to:$(/b)$(/i) Tridents and other throwables \n$(b)$(i)* Max Level:$(/b)$(/i) 2 \n$(b)$(i)* Tresure:$(/b)$(/i) Yes"
+        }
+      ]
+    }
+  ]
+}

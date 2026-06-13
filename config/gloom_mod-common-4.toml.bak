@@ -1,0 +1,8 @@
+#Damage that will be dealt when player have 1 hp
+lastHitDamage = 2.0
+#Interval between hits
+damageInterval = 100
+#Light level threshold after which you will start taking damage
+lightLevel = 1
+#A list of dimensions that are safe from gloom.
+dimensions = ["minecraft:the_nether", "minecraft:the_end"]

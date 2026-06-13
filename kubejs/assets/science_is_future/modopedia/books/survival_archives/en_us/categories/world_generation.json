@@ -1,0 +1,8 @@
+{
+  "title": "World Generation",
+  "icon": { "id": "supplementaries:globe" },
+  "landing_text": "This category contains information regarding geological formations.\n\nHere, you will find detailed data about worldgen features",
+  "entries": [
+    "world_generation/crude_oil"
+  ]
+}

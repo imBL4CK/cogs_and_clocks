@@ -1,0 +1,8 @@
+{
+  "event.mob_effect.gloom": {
+    "sounds": [
+      "science_is_future:mob_effects/gloom"
+    ],
+    "subtitle": "subtitles.science_is_future.event.mob_effect.gloom"
+  }
+}

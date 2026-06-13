@@ -1,0 +1,60 @@
+{
+  "title": "Crude Oil",
+  "icon": {
+    "id": "science_is_future:crude_oil_bucket"
+  },
+  "assigned_items": [
+    "science_is_future:crude_oil_bucket",
+    "science_is_future:light_fuel_bucket",
+    "science_is_future:heavy_fuel_bucket",
+    "science_is_future:refined_fuel_bucket"
+  ],
+  "pages": [
+    {
+      "components": [
+        {
+          "template": "science_is_future:page/simple_showcase_item",
+          "header": "The Black Oil",
+          "text": "Crude oil is a valuable resource found in deserts and badlands.\n\nIn its natural form, the resource doesn't have many uses, as it needs to be refined for better efficiency.",
+          "text_offset": 50,
+          "showcase_item": {
+            "type": "modopedia:simple",
+            "item": { "id": "science_is_future:crude_oil_bucket" }
+          }
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "template": "modopedia:page/headered_text",
+          "header": "Crude Oil Derivatives",
+          "text": "When refined in a superheated mixer, it generates light and heavy fuel, both fuels that can be used in a diesel generator.\n\nFurthermore, you can further improve generation efficiency by combining light and heavy fuel in a refinery, thus creating $(b)$(i)refined fuel$() – the best fuel."
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "template": "science_is_future:page/simple_showcase_item",
+          "header": "Plastics",
+          "text": "But the uses of crude oil don't stop at fuels.\n\nBy mixing crude oil with charcoal and refined fuel in a heated mixer, it's possible to create plastic.",
+          "text_offset": 50,
+          "showcase_item": {
+            "type": "modopedia:simple",
+            "item": { "id": "science_is_future:plastic_sheet" }
+          }
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "template": "modopedia:page/headered_text",
+          "header": "Plastics Uses",
+          "text": "Plastics are synthetic polymers that are resistant to chemicals and electricity.\n\nPlastic can replace rubber in some recipes, as both have similar properties.\n\nFor more information about plastic, check the dedicated entry to this item."
+        }
+      ]
+    }
+  ]
+}

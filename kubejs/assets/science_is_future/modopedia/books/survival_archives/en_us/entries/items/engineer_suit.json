@@ -1,0 +1,87 @@
+{
+  "title": "Engineer's Suit",
+  "icon": {
+    "id": "science_is_future:engineer_suit"
+  },
+  "assigned_items": [
+    "science_is_future:engineer_suit",
+    "science_is_future:engineer_leggings",
+    "science_is_future:rubber_boots"
+  ],
+  "pages": [
+    {
+      "components": [
+        {
+          "type": "modopedia:separator",
+          "y": 10
+        },
+        {
+          "type": "modopedia:header",
+          "text": "Engineer's Suit"
+        },
+        {
+            "type": "modopedia:small_frame",
+            "x": 18,
+            "y": 24
+        },
+        {
+            "type": "modopedia:small_frame",
+            "x": 40,
+            "y": 24
+        },
+        {
+            "type": "modopedia:small_frame",
+            "x": 62,
+            "y": 24
+        },
+        {
+            "type": "modopedia:item_gallery",
+            "display": {
+              "type": "modopedia:simple",
+              "item": { "id": "science_is_future:engineer_suit" }
+            },
+            "height": 48,
+            "width": 48,
+            "x": 20,
+            "y": 26
+        },
+        {
+            "type": "modopedia:item_gallery",
+            "display": {
+              "type": "modopedia:simple",
+              "item": { "id": "science_is_future:engineer_leggings" }
+            },
+            "height": 48,
+            "width": 48,
+            "x": 42,
+            "y": 26
+        },
+        {
+            "type": "modopedia:item_gallery",
+            "display": {
+              "type": "modopedia:simple",
+              "item": { "id": "science_is_future:rubber_boots" }
+            },
+            "height": 48,
+            "width": 48,
+            "x": 64,
+            "y": 26
+        },
+        {
+          "type": "modopedia:text",
+          "text": "The engineer's suit is a very useful piece of safety equipment for the daily maintenance of factories.\n\nThe set offers decent protection and has a low production cost, but its best attributes are not limited to just that.",
+          "y": 50
+        }
+      ]
+    },
+    {
+      "components": [
+        {
+          "template": "modopedia:page/headered_text",
+          "header": "Thermal Insulation",
+          "text": "The set has protection against temperature changes caused by blocks and the environment, thus preventing you from fainting near machines that produce a lot of heat.\n\nThe rubber boots increase movement speed by 10%, swimming speed by 20%, and reduce fall damage by 50%."
+        }
+      ]
+    }
+  ]
+}

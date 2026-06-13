@@ -1,0 +1,36 @@
+{
+  "description": {
+    "translate": "enchantment.science_is_future.razor_edges"
+  },
+  "exclusive_set": "#minecraft:exclusive_set/damage",
+  "supported_items": "#science_is_future:enchantable/razor_edges",
+  "primary_items": "#science_is_future:enchantable/razor_edges",
+  "weight": 1,
+  "max_level": 2,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 5
+  },
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 2.0,
+            "per_level_above_first": 2.0
+          }
+        }
+      }
+    ]
+  }
+}

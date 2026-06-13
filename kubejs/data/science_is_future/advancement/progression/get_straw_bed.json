@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "nomansland:straw_bed"
+    },
+    "title": {
+      "translate": "advancements.science_is_future.progression.get_straw_bed.title"
+    },
+    "description": {
+      "translate": "advancements.science_is_future.progression.get_straw_bed.description"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "science_is_future:progression/get_campfire",
+  "criteria": {
+    "get_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "nomansland:straw_bed"
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": false
+}
